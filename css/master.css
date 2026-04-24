@@ -1,0 +1,90 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 1rem;
+    }
+.container{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1.25rem;
+}
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    display: block;
+}
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1.25rem;
+    margin: 1.25rem 0;
+    border-radius: 0.75rem;
+}
+.prep{
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+.prep-time li::marker
+,.steps li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.head{
+    color: hsl(14, 45%, 36%);
+}
+.steps li,
+.prep-time li{
+    color: hsl(30, 10%, 34%);
+    padding-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+p, li{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+ol li{
+    margin-bottom: 0.75rem;
+}
+ol,
+ul {
+    list-style-position: outside;
+    padding-left: 1.3rem;     
+}
+h1, h2{
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+}
+h1{
+    margin-bottom: 1rem;
+}
+
+h2{
+    margin-top: 2rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+th, td {
+    padding: 1rem 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    text-align: left;
+}
+tr:last-child th, 
+tr:last-child td{
+    border-bottom: none;
+}
+.value{
+    color: hsl(14, 45%, 36%); 
+    font-weight: 700;      
+}
